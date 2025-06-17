@@ -1,0 +1,82 @@
+body 
+{
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to bottom right, #f8e8ff, #e6e6fa);
+}
+
+.logo-text 
+{
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #a020f0 !important;
+  transition: color 0.3s ease;
+}
+
+.flower-icon 
+{
+  color: #d87093;
+  font-size: 1.1rem;
+}
+
+.nav-hover 
+{
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-hover:hover 
+{
+  color: #a020f0 !important;
+  font-weight: bold;
+  transform: translateY(-2px);
+}
+
+.card 
+{
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover 
+{
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+h2 
+{
+  font-weight: 700;
+  color: #4b0082;
+}
+
+#searchBar 
+{
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+.hero-section 
+{
+  height: 60vh;
+  background: url('https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover;
+  background-attachment: fixed;
+}
+
+.btn-register 
+{
+  background-color: #a020f0;
+  color: white;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-register:hover 
+{
+  background-color: #8a2be2;
+}
+
+.contact-footer 
+{
+  background: linear-gradient(to right, #f3d1ff, #e6ccff);
+  color: #4b0082;
+}
